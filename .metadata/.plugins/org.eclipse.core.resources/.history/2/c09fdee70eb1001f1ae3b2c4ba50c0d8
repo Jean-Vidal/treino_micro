@@ -1,0 +1,9 @@
+package com.microservico.mscartoes.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/cartoes")
+public class Controller {
+
+}

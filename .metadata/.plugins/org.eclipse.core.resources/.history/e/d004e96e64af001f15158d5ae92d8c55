@@ -1,0 +1,5 @@
+package com.microservico.msclientes.persistence;
+
+public interface ClienteRepository {
+
+}

@@ -1,0 +1,5 @@
+package com.microservico.mscartoes.persistence;
+
+public interface CartaoRepository {
+
+}

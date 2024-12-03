@@ -1,0 +1,5 @@
+package com.microservico.msclientes.rest;
+
+public class ClienteController {
+
+}

@@ -1,0 +1,5 @@
+package com.microservico.mscartoes.service;
+
+public class CartaoService {
+
+}

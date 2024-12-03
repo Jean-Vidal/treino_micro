@@ -1,0 +1,15 @@
+package com.microservico.msclientes;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+public class Clientes {
+	
+	private Long id;
+	private String cpf;
+	private String nome;
+	private String idade;
+
+}

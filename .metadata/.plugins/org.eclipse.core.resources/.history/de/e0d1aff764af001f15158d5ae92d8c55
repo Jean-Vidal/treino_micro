@@ -1,0 +1,10 @@
+package com.microservico.msclientes.persistence;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.microservico.msclientes.domain.Clientes;
+
+public interface ClienteRepository extends JpaRepository<Clientes, Long> {
+	
+
+}

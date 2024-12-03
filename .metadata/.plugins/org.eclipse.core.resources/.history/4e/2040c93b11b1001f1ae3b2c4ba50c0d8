@@ -1,0 +1,5 @@
+package com.microservico.mscartoes.domain;
+
+public class Cartao {
+
+}

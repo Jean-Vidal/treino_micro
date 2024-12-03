@@ -1,0 +1,20 @@
+package com.microservico.mscartoes.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.microservico.mscartoes.domain.Cartao;
+import com.microservico.mscartoes.persistence.CartaoRepository;
+
+@Service
+public class CartaoService {
+	
+	@Autowired
+	CartaoRepository repository;
+	
+	public Cartao save(Cartao cartao) {
+		return repository.save(cartao);
+	}
+	
+
+}

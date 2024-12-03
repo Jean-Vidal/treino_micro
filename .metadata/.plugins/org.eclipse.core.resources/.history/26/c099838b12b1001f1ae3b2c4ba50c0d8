@@ -1,0 +1,9 @@
+package com.microservico.mscartoes.persistence;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.microservico.mscartoes.domain.Cartao;
+
+public interface CartaoRepository extends JpaRepository<Cartao, Long>{
+
+}

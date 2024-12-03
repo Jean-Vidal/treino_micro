@@ -1,0 +1,5 @@
+package com.microservico.msclientes.service;
+
+public class ClientesService {
+
+}
